@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "swf",
+        "request": "launch",
+        "name": "Launch SWF",
+        "profile": "desktop",
+        "program": "${workspaceFolder}/bin/AIR_OBSvcam-app.xml",
+        "args": [],
+        "runtimeExecutable": "C:\\share\\dev\\AIR\\AIRSDK\\bin\\adl64.exe",
+        "preLaunchTask": "ActionScript: compile debug - asconfig.json"
+      }
+    ]
+}
