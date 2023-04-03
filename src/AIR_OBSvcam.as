@@ -18,7 +18,7 @@ package {
                 __video.attachCamera(__camera);
                 addChild(__video);
 
-                trace("Camera.names:  "+Camera.names)
+                trace("Camera.names:  "+Camera.names);
                 trace("OBS Virtual Camera is at index "+Camera.names.indexOf("OBS Virtual Camera"));
                 trace("Attached "+__camera.name+" at index "+Camera.names.indexOf(__camera.name));
             } else {
