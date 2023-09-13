@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?> 
-<application xmlns="http://ns.adobe.com/air/application/50.0"> 
+<application xmlns="http://ns.adobe.com/air/application/50.2"> 
 	<id>com.example.AIROBSvcam</id> 
 	<versionNumber>0.0.1</versionNumber> 
 	<filename>AIR_OBSvcam</filename> 

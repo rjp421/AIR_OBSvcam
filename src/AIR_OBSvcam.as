@@ -10,7 +10,7 @@ package {
 
         public function AIR_OBSvcam() 
         {
-            __camera = Camera.getCamera(Camera.names.indexOf("OBS Virtual Camera") as String);
+            __camera = Camera.getCamera(String(Camera.names.indexOf("OBS Virtual Camera")));
             if (__camera != null) {
                 __camera.setMode(640, 480, 30);
 
